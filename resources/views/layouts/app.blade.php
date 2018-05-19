@@ -5,6 +5,7 @@
       <title>TaskList</title>
    </head>
    <body>
+      @include('commons.errer_messages')
       @yield('content')
    </body>
 </html>
